@@ -13,7 +13,7 @@
 static struct rule_t rules[] = {
 	/* UID, GID, SUID, SGID, alias(ONE string), path to SYSEXEary executable.
 	 * If path is set to "*" then it will be run from the "PATH" variable. */
-	{ UID1, GID1, SUID1, SGID1, "safe", "*"},
+	{ UID1, GID1, SUID1, SGID1, "safe", SYSEXE "/safe"},
 	{ UID1, GID1, SUID1, SGID1, "cp", SYSEXE "/cp"},
 	{ UID1, GID1, SUID1, SGID1, "ln", SYSEXE "/ln"},
 	{ UID1, GID1, SUID1, SGID1, "chmod", SYSEXE "/chmod"},

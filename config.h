@@ -25,6 +25,10 @@ static struct rule_t rules[] = {
 	{ UID1, GID1, SUID1, SGID1, "xi", SYSEXE "/xbps-install" },
 	{ UID1, GID1, SUID1, SGID1, "xr", SYSEXE "/xbps-remove" },
 	{ UID1, GID1, SUID1, SGID1, "sv", SYSEXE "/sv" },
+	/* Linux/Debian */
+	{ UID1, GID1, SUID1, SGID1, "apt", SYSEXE "/apt" },
+	/* Linux/Arch */
+	{ UID1, GID1, SUID1, SGID1, "pacman", SYSEXE "/pacman" },
 	/* Python. */
 	{ UID1, GID1, SUID1, SGID1, "pip3", SYSEXE "/pip3" },
 	{ UID1, GID1, SUID1, SGID1, "pip2", SYSEXE "/pip2" },

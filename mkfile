@@ -1,5 +1,5 @@
 <mkconfig
-<$MKINCDIR/std/build
+<$MKINCDIR/std/cbuild
 clean:
 	rm -f $TARG $OFILES
 install :V: $TARG

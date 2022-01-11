@@ -19,6 +19,9 @@ static struct rule_t rules[] = {
 	{ UID1, GID1, SUID1, SGID1, "chmod", SYSEXE "/chmod"},
 	{ UID1, GID1, SUID1, SGID1, "kill", SYSEXE "/kill"},
 	{ UID1, GID1, SUID1, SGID1, "pkill", SYSEXE "/pkill"},
+	{ UID1, GID1, SUID1, SGID1, "mnt", SYSEXE "/mount"},
+	{ UID1, GID1, SUID1, SGID1, "umnt", SYSEXE "/umount"},
+	{ UID1, GID1, SUID1, SGID1, "fdisk", SYSEXE "/fdisk"},
 	/* Network utilites. */
 	{ UID1, GID1, SUID1, SGID1, "ifconfig", SYSEXE "/ifconfig" },
 	/* Voidlinux. */

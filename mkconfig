@@ -3,3 +3,4 @@ PROGNAME = sup
 DEFS = -DUID1'='`{id -u}
 LDFLAGS = $LD_STATIC_FLAG
 CFILES = main.c
+HFILES = config.h

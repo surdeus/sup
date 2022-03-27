@@ -15,6 +15,8 @@ static struct rule_t rules[] = {
 	 * If path is set to "*" then it will be run from the "PATH" variable. */
 	{ UID1, GID1, SUID1, SGID1, "safe", SYSEXE "/safe"},
 	{ UID1, GID1, SUID1, SGID1, "cp", SYSEXE "/cp"},
+	{ UID1, GID1, SUID1, SGID1, "mv", SYSEXE "/mv"},
+	{ UID1, GID1, SUID1, SGID1, "vi", SYSEXE "/vi"},
 	{ UID1, GID1, SUID1, SGID1, "ln", SYSEXE "/ln"},
 	{ UID1, GID1, SUID1, SGID1, "chmod", SYSEXE "/chmod"},
 	{ UID1, GID1, SUID1, SGID1, "kill", SYSEXE "/kill"},
